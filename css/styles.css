@@ -169,14 +169,12 @@ body {
 }
 
 .header {
-	height: 20%;
 	margin: 10px 0;
 	text-align: center;
 }
 
 .logoh {
 	max-width: 16%;
-	height: auto;
 	display: inline-block;
 	position: relative;
 	
@@ -196,6 +194,7 @@ body {
 	position: absolute;
 	top: 2vw;
 	overflow-x: auto;
+	align-content: center;
 	
 	animation: titlerev;
 	animation-duration: 1s;
