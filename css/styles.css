@@ -168,7 +168,7 @@ body {
 	background-color: whitesmoke;
 }
 
-header {
+.header {
 	height: 20%;
 	margin: 10px 0;
 	text-align: center;
@@ -195,6 +195,7 @@ header {
 	z-index: -1;
 	position: absolute;
 	top: 2vw;
+	overflow-x: auto;
 	
 	animation: titlerev;
 	animation-duration: 1s;
