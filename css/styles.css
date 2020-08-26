@@ -126,8 +126,8 @@
 }
 
 @keyframes titlerev {
-	from {opacity: 0; left: 5vw;}
-	to {opacity: 1; left: 7vw;}
+	from {opacity: 0; left: 13vw;}
+	to {opacity: 1; left: 20vw;}
 }
 
 @keyframes tagrev {
@@ -189,12 +189,12 @@ body {
 	font-family: 'Serpentine D', sans-serif;
 	color: #000081;
 	font-size: 9vw;
-	width: 100%;
+	width: 75%;
 	z-index: -1;
 	position: absolute;
 	top: 2vw;
-	overflow-x: auto;
-	align-content: center;
+	overflow-x: hidden;
+	align-items: center;
 	
 	animation: titlerev;
 	animation-duration: 1s;
