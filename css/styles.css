@@ -169,7 +169,7 @@ body {
 }
 
 .header {
-	margin: 10px 0;
+	margin: 10px 0 0 0;
 	text-align: center;
 }
 
@@ -217,7 +217,17 @@ body {
 }
 
 .about-text {
-	font-family: 'montserrat', sans-serif;
+	font-family: 'montserratmedium', sans-serif;
+	font-size: 15px;
 }
 
 
+
+#preamble {
+	font-family: 'montserratmedium', sans-serif;
+}
+
+.footer {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
