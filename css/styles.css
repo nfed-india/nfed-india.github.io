@@ -231,3 +231,24 @@ body {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
+
+.footer-headings {
+	font-family: 'montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.footer-links {
+	font-family: 'montserratsemibold', sans-serif;
+	list-style: none;
+	padding: 5px 0 5px 0;
+}
+
+.footer-links > a {
+	text-decoration: none;
+}
+
+.footer-links > a:hover {
+	color: #FFD100
+}
+
+
