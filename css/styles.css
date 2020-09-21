@@ -255,17 +255,28 @@ body {
 
 #email {
 	font-size: 1.1em;
-	display: inline-block;
-	vertical-align: middle;
    font-family: 'montserratbold', sans-serif;
+	display: inline-block;
 }
 
-.contactdiv {
-	margin-left: 18vw;
-}
+
 
 @media only screen and (max-width: 600px) {
 	.contactdiv {
 		margin-left: 0;
 	}
+}
+
+#contact {
+	list-style: none;
+}
+
+#email-icon {
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.contactlist {
+	float: left;
+	vertical-align: baseline;
 }
