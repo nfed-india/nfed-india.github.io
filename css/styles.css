@@ -256,7 +256,7 @@ body {
 #email {
 	font-size: 1.1em;
    font-family: 'montserratbold', sans-serif;
-	display: inline-block;
+	margin-left: 10px; 
 }
 
 
@@ -269,14 +269,21 @@ body {
 
 #contact {
 	list-style: none;
+	margin-left: 0px !important;
 }
 
-#email-icon {
-	display: inline-block;
-	vertical-align: bottom;
-}
 
-.contactlist {
+
+#contactlist-emailicon {
 	float: left;
-	vertical-align: baseline;
+	display: inline-block;
+}
+
+#contactlist-emailtxt {
+	padding-top: 4px;
+	display: inline-block;
+	vertical-align: middle !important;
+}
+
+@media (max-width: 657px){
 }

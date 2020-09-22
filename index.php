@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -27,7 +31,6 @@
 			<a class="w3-bar-item w3-button w3-mobile w3-padding-16" href="#">Publication Guidelines</a>
 			<a class="w3-bar-item w3-button w3-mobile w3-padding-16" href="#">Editorial Review Board</a>
 			<a class="w3-bar-item w3-button w3-mobile w3-padding-16" href="#">Editorial Advisory Board</a>
-	  <a class="w3-bar-item w3-button w3-mobile w3-padding-16" href="index.php">Index2</a>
 		  <a class="w3-bar-item w3-button w3-padding-16 w3-mobile w3-right yellowfill timer" href="#">SUBMIT A PAPER</a>
 			</div>
 </nav><p class="w3-container w3-justify">
@@ -37,31 +40,7 @@
 	</p>
 
 	<footer class="w3-dark-grey footer">
-		<div class="w3-container w3-center w3-padding-16"><img src="images/TIMER Emblem.png" height="96px" alt="TIMER">
-		  <p align="center"><strong><em>Copyright @ TIMER 2020</em></strong></p>
-        </div>
-		<div class="w3-container">
-	  <div class="w3-half w3-container w3-dark-grey">
-		  <h3 class="footer-headings"><strong>Explore</strong></h3>
-		  <ul>
-			  <li class="footer-links"><a href="index.html">Home</a></li>
-			  <li class="footer-links"><a href="#">Index</a></li>
-			  <li class="footer-links"><a href="about-timer.html">About</a></li>
-			  <li class="footer-links"><a href="#">Publication Guidelines</a></li>
-			  <li class="footer-links"><a href="#">Editorial Review Board</a></li>
-			  <li class="footer-links"><a href="#">Editorial Advisory Board</a></li>
-		  </ul>
-		</div>
-		<div class="w3-half w3-container w3-dark-gray contactdiv">
-			<h3 class="footer-headings"><strong>Contact</strong></h3>
-			<ul id="contact">
-				<li id="contactlist-emailicon"><i class="far fa-envelope fa-2x"></i></li>
-		  <li id="contactlist-emailtxt"><span id="email">info@timerjournal.org</span></li>
-				</ul>
-			  
-        </div>
-			</div>
-		<?php include('footer.php');?>
+            <?php include('footer.php');?>
 </footer>
 	    
 </body>
