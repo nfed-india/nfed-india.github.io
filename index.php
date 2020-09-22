@@ -40,7 +40,7 @@
 	</p>
 
 	<footer class="w3-dark-grey footer">
-            <?php include('footer.php');?>
+            <?php require('footer.php');?>
 </footer>
 	    
 </body>
