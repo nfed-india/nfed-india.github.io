@@ -1,1 +1,1 @@
-## Timer Jounral Website
+## Timer Journal Website
