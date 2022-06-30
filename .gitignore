@@ -1,1 +1,5 @@
 /.git
+<<<<<<< HEAD
+=======
+node_modules
+>>>>>>> parent of 522c259 (Update .gitignore)
